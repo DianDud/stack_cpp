@@ -67,7 +67,6 @@ void printStack(st *s) {
 
 // Функция main
 int main() {
-  int ch;
   st *s = (st *)malloc(sizeof(st));
 
   createEmptyStack(s);
